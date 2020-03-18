@@ -1,0 +1,8 @@
+server:
+  port: 3000
+eureka:
+  server:
+    enable-self-preservation: false  #关闭自我保护机制
+    eviction-interval-timer-in-ms: 4000 #设置清理间隔（单位：毫秒 默认是60*1000）
+  instance:
+    hostname: localhost
