@@ -8,6 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 
 /**
+ * eureka客户端
  * feign调用方
  */
 @SpringBootApplication
